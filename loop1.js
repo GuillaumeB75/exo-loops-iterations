@@ -1,10 +1,10 @@
 let tab = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-let counter = 
+let i = 0  //indexation au debut de l'array
 
-while (counter <= 10) {
+while (i < tab.length) {      // juste < pour ne pas voir apparaître undefined
 
-  console.log(counter);
+  console.log(tab[i])       //fait
 
-  counter += 1;
+  ++i
 }
