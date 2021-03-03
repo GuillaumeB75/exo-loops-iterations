@@ -1,4 +1,5 @@
-let tab = ['Alice', 'Bob', 'Craig', 'Dan', 'Eve']  //for
+let tab = ['Alice', 'Bob', 'Craig', 'Dan', 'Eve']
 
-for (let i = 0; i < tab.length; i += 1)
-  console.log(tab[i])                               //fait
+for (let i = 0; i < tab.length; ++i) {
+  console.log(tab[i])
+}

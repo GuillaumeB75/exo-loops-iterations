@@ -1,5 +1,7 @@
-let tab = ['map', 'filter', 'forEach', 'reduce', 'every'] // for each
+
+let tab = ['map', 'filter', 'forEach', 'reduce', 'every']
 
 tab.forEach((elem) => {
   console.log(elem)
-})                        //fait
+})
+console.log(i)
